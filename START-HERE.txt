@@ -1,0 +1,14 @@
+Document Navigator v1.0.0 — GitHub 发布版
+
+请先阅读 README.md 中的中文教程。
+
+1. 这个文件夹是源代码，不是直接上传到 RemNote 的安装包。
+2. 在 GitHub 创建 Public 仓库，然后上传本文件夹里面的全部内容。
+3. 仓库首页必须直接看见 package.json 和 .github 文件夹。
+4. 打开 Actions > Build RemNote plugin，等待成功。
+5. 下载 Artifacts 中的 RemNote-plugin-package，解压一层。
+6. 将里面的 Document-Navigator-v1.0.0.zip 上传到 RemNote > Settings > Plugins > Build > Upload plugin。
+7. 含 JavaScript 的插件需要 RemNote 审核；Unlisted 同样需要。
+8. 审核通过后，用生成的 INSTALL.txt 中的地址安装。
+
+GitHub Release 的创建方法，以及停用旧本地版、后续更新和程序文件位置，都在 README.md。

@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 1,
+  "id": "document-navigator-release",
+  "name": "Document Navigator",
+  "author": "AUTO",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "description": "Browse, search, and jump to H1–H5 headings in the current document.",
+  "repoUrl": "https://github.com/OWNER/REPOSITORY",
+  "enableOnMobile": false,
+  "requestNative": false,
+  "unlisted": true,
+  "requiredScopes": [
+    {
+      "type": "All",
+      "level": "Read"
+    }
+  ]
+}

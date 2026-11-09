@@ -1,0 +1,11 @@
+/* Fill BOTH SDK layers: body > mount div > .plugin > section.hn.
+   The .plugin React wrapper must not have an indefinite (auto) height.
+   Other widgets and the setup page keep their own document sizing. */
+html.hn-viewport,
+html.hn-viewport body,
+html.hn-viewport body > div,
+html.hn-viewport .plugin[data-plugin-id="__PLUGIN_ID__"] {
+  height:100%; min-height:0; margin:0; padding:0;
+}
+html.hn-viewport,
+html.hn-viewport body {overflow:hidden;}
